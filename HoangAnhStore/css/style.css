@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    border: 1px solid #000;
+    height: 200px;
+    width: 100%;
+    
+}
+/* phần menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.list_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.list_menu li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.list_menu li a{
+    text-decoration: none;
+    color: #023468;
+    font-size: 20px;
+}
+
+.list_menu li a:hover{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Add text shadow */
+}
+
+.search-form {
+    margin-left: auto;
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-form button {
+    background-color: #006699;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* phần main */
+.main{
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    
+}
+/* phan sidebar */
+
+
+/* Styles for the sidebar container */
+.sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #f4f4f4; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    float: left;
+}
+
+/* Styles for the sidebar navigation list */
+.list_sidebar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for sidebar list items */
+.list_sidebar li {
+    position: relative;
+    margin-bottom: 10px; /* Add bottom margin between items */
+}
+
+/* Styles for sidebar links */
+.list_sidebar li a {
+    text-decoration: none; /* Remove underline */
+    color: #023468; /* Set link color */
+    display: block; /* Make links block-level for full-width clickable area */
+    padding: 10px; /* Add padding */
+    border-radius: 3px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+/* Hover effect for sidebar links */
+.list_sidebar li a:hover {
+    background-color: #006994; /* Change background color on hover */
+}
+.list_sidebar li:after {
+    content: ""; /* Empty content */
+    position: absolute; /* Position absolute */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 1px; /* Line thickness */
+    background-color: #ccc; /* Line color */
+}
+
+/*phan hien o trang chinh*/
+.maincontent{
+    height: auto;
+    width: 68%;
+    margin: 5px 5px 0 0;
+    float: right;
+}
+
+.list_product {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.list_product li a{
+    text-decoration: none;
+}
+
+.list_product img{
+    height: 150px;
+    width: 100%;
+}
+
+.list_product li {
+    width: 23%;
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    height: 300px;
+}
+
+.title_product{
+    text-align: center;
+    font-weight: bold;
+    color: #005B9A;
+}
+.title_product:hover{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Add text shadow */
+}
+.price_product{
+    text-align: center;
+    font-weight: bold;
+    color: #e11a0b;
+}
+.price_product:hover{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Add text shadow */
+}
+.cate_product{
+    text-align: center;
+    color: #005B9A;
+}
+.cate_product:hover{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Add text shadow */
+}
+
+.clear{
+    clear: both;
+}
+/* chi tiet san pham */
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.img_chitiet{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+.img_chitiet img{
+    width: 100%;
+}
+.themgiohang{
+    border: 10%;
+    background: #a4b429;
+    font-size: 15px;
+    padding: 12px;
+    cursor: pointer; /*di chuyen chuot vao thi hien con tro*/
+}
+/*phan footer*/
+.footer{
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+    background: #006699;
+}
+
+.footer_copyright{
+    text-align: center;
+}
+
+/*hiển thị bài viết*/
